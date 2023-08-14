@@ -1,0 +1,52 @@
+.cont
+{
+    background-color: rgba(25, 177, 25, 0.226);
+    border-width: 1rem;
+    border: 1px 1px 1px 1px;
+    color: blue;
+}
+
+.img
+{
+    border-radius: 50%;
+}
+
+.atras
+{
+    background-image: url('./portal3.webp');
+    height: 300px;
+    width: 300px;
+    border-radius: 37%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .atras {
+      animation: portal infinite 20s linear;
+    }
+  }
+
+  @keyframes portal {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .img {
+      animation: img infinite 20s linear;
+    }
+  }
+
+
+  @keyframes img {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+  

@@ -1,0 +1,22 @@
+.izq
+{
+    display:flex;
+    justify-content: start;
+}
+
+.der
+{
+   display:flex;
+   justify-content: end;
+}
+
+.btn
+{
+    width: 6vw;
+    height: 4vh;
+    border-radius: 0.3rem;
+    background-color: rgba(234, 0, 255, 0.795);
+    border: none;
+    cursor: pointer;
+    margin: 3px;
+}
