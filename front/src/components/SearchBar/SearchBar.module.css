@@ -1,0 +1,36 @@
+.div
+{
+    background-color: rgba(36, 15, 228, 0.185);
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input
+{
+    width: 60%;
+    height: 50%;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0 0 0 1rem;
+    margin: 3px;
+}
+
+.btn
+{
+    width: 6vw;
+    height: 4vh;
+    border-radius: 0.3rem;
+    background-color: rgba(234, 0, 255, 0.795);
+    border: none;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.btn:hover
+{
+    width: 7vw;
+    height: 5vh;
+    transition: 0.4s;
+}

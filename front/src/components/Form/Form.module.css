@@ -1,0 +1,23 @@
+.error
+{
+    background-color: rgb(128, 186, 236);
+    color:rgba(255, 0, 0, 0.692);
+    align-items: center;
+}
+
+.inErr
+{
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.301);
+}
+
+.inRig
+{
+    border: 2px solid blue;
+    background-color: rgba(0, 0, 255, 0.329);
+}
+
+input:focus
+{
+    outline: none;
+}
