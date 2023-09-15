@@ -1,0 +1,9 @@
+[
+    {"name": "Lege", "nota": 6, "id": 0},
+    {"name": "Daro", "nota": 5, "id": 1},
+    {"name": "Coa", "nota": -4, "id": 2},
+    {"name": "Checho", "nota": 3, "id": 3},
+    {"name": "ive", "nota": 10, "id": 4},
+    {"name": "Leca", "nota": 7, "id": 5},
+    {"name": "Exo", "nota": 8, "id": 6}
+]

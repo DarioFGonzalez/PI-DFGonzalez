@@ -1,0 +1,7 @@
+.cont{
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+    justify-content: space-around;
+    background-color: rgba(8, 74, 255, 0.062);
+}

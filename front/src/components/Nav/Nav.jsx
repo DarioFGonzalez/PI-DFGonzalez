@@ -6,7 +6,7 @@ const Nav = ({onSearch, logout})=>
 {
     const random = ()=>
     {
-        let random = Math.floor(Math.random() * (150 - 0 + 1)) + 0;
+        let random = Math.floor(Math.random() * (826 - 1 + 1)) + 1;
         onSearch(random);
     }
 
@@ -18,6 +18,9 @@ const Nav = ({onSearch, logout})=>
             </Link>
             <Link to='/about'>
                 <button className={style.btn}>ABOUT</button>
+            </Link>
+            <Link to='/favorites'>
+                <button className={style.btn}>FAVORITOS</button>
             </Link>
         <button className={style.btn} onClick={random}>RaNdOm</button>
         <SearchBar onSearch={onSearch}/>
